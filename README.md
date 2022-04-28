@@ -11,6 +11,18 @@ import requests
 import sqlite3
 import plotly.graph_objects as go
 ```
+
+## Data Structure 
+1. Data fetching
+* Call rapidapi API for covid cases information
+* Scrape WorldMeters for country code
+2. Data storing
+* Create a database
+* Save country code into country_info table
+* Save covid cases into covid_cases table
+3. Presentation 
+* Use plotly for vis
+
 ## Data Presentation 
 The program will provide users four different vis options, users will enter number 1 to 4 to select which vis to look at. After select a vis, users are able to further select different countries to see more detailed information. 
 
